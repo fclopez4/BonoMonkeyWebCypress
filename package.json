@@ -1,0 +1,15 @@
+{
+  "name": "monkey_web",
+  "version": "1.0.0",
+  "description": "monkey de prueba funcionando sobre cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cy:monkey_web": "cypress run --spec 'cypress/e2e/monkey_web.cy.js' --browser firefox --headless"
+  },
+  "author": "fclopez4",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^13.4.0"
+  }
+}

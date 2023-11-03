@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "cy:monkey_web": "cypress run --spec 'cypress/e2e/monkey_web.cy.js' --browser firefox --headless"
+    "cy:monkey_web": "cypress run --spec 'cypress/e2e/monkey_web.cy.js'",
+    "cy:monkey_web:firefox": "cypress run --spec 'cypress/e2e/monkey_web.cy.js' --browser firefox --headless"
   },
   "author": "fclopez4",
   "license": "MIT",
